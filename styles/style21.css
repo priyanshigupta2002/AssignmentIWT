@@ -1,0 +1,228 @@
+.header>.banner{
+    height:100%;
+    width:80%;
+    display:flex;
+    justify-content:flex-start;
+    align-items:left;
+    margin:3px;
+    padding:2px;
+}
+
+.years{
+    font-size:25px;
+    color:black;
+    height:90%;
+    width:20%;
+    top:60px;
+    padding:20px;
+}
+
+.years>span{
+    color:rgb(207, 63, 63);
+    font-size:60px;
+}
+
+.header>.banner>img{
+    height:90%;
+    width:20%;
+    display:flex;
+}
+
+.content{
+    width:100%;
+    height:100%;
+    position:relative;
+    margin:10px;
+    padding:2px;
+}
+
+.content>img{
+    width:100%;
+    position:relative;
+    height:100%;
+    padding-right:30px;
+}
+
+.content>.overflow-box {
+    position:absolute;
+    top: 0px;
+    left: 60%;
+    bottom: 0px;
+    right: 0px;
+    height:100%;
+    width:40%;
+    background-color:rgba(24, 24, 23, 0.5);
+}
+
+.content>.overflow-box>.material{
+    height:100%;
+    width:100%;
+    color:white;
+    padding:auto;
+    text-align:left;
+}
+
+.content>.overflow-box>.material>.video{
+    text-transform:uppercase;
+    font-weight: bolder;
+    font-size:20px;
+    padding-top: 20%;
+    padding-left:10%
+}
+
+.content>.overflow-box>.material>.videotext{
+    font-size:60px;
+    padding-left:10%;
+    padding-right:10%;
+}
+
+.content>.overflow-box>.material>.button>a{
+    text-decoration:none;
+    color:white;
+    text-align:center;
+    font-size:25px;
+}
+
+.content>.overflow-box>.material>.button{
+    width:40%;
+    border:2px solid white;
+    text-align:center;
+    margin-left:10%;
+    padding:10px;
+}
+
+.content>.overflow-box>.material>.button:hover{
+    width:40%;
+    border:2px solid white;
+    text-align:center;
+    margin-left:10%;
+    padding:10px;
+    transform: scale(1.12);
+}
+
+.content>.overflow-box>.material>.more-text{
+    text-align:justify;
+    font-size:35px;
+    padding:25px;
+    margin-left:6.5%;
+}
+
+.header>.banner .name{
+    top:0px;
+    left:30%;
+    padding-left:30px;
+    padding-top:10px;
+    text-align:left;
+    font-size:45px;
+    font-weight: bolder;
+}
+
+.header>.banner>.name>.tagline{
+    top:10px;
+    left:30%;
+    margin:2px;
+    padding:3px;
+    font-size:20px;
+    font-weight:200;
+}
+
+.header>.banner>.line{
+    margin:0px;
+    padding-right:5px;
+    padding-left:0px;
+    top:10%;
+    left:0px;
+    position:relative;
+    font-size:100px;
+    height:90%;
+    opacity:0.3;
+    display:flex;
+
+}
+
+.header{
+    display:flex;
+    justify-content:flex-start;
+    height:25%;
+    width:100%;
+}
+
+header>.topbar{
+    height:100%;
+    width:20%;
+}
+
+.container>nav > ul > a{
+    text-decoration: none;
+}
+
+.container>nav>ul{
+    list-style:none;
+    margin:0;
+    padding:10px;
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+}
+
+.container>nav > ul li{
+    font-size:20px;
+    text-transform:capitalize;
+    margin:3px;
+    padding:5px;
+    text-align:center;
+    text-transform:uppercase;
+    color:white;
+}
+
+.container>nav{
+    position:sticky;
+}
+
+.container>nav>ul li:hover{
+    transform: scale(1.03);
+    transition: 1s;
+    color:lightblue;
+}
+
+.container{
+    background-color:black;
+    margin:10px;
+}
+
+.topbar>nav > ul > a{
+    text-decoration: none;
+}
+
+.topbar>nav > ul{
+    list-style:none;
+    margin:10px;
+    padding:10px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:right;
+}
+
+.topbar>nav>ul li{
+    font-size:15px;
+    text-transform:uppercase;
+    font-weight:bold;
+    margin:3px;
+    padding-right:10px;
+    padding-left:10px;
+    text-align:center;
+    color:rgb(109, 109, 236);
+    position:relative;
+    top:0;
+}
+
+.topbar>nav{
+    position:relative;
+    top:0px;
+}
+
+.topbar>nav>ul li:hover{
+    transform: scale(1.01);
+    transition: 1s;
+    color:maroon;
+}
